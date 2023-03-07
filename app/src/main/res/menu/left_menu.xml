@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/messageFragment"
+            android:icon="@drawable/message"
+            android:title="Messages" />
+        <item
+            android:id="@+id/notificationFragment"
+            android:icon="@drawable/notification"
+            android:title="Notification" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="">
+
+            <menu>
+                <item
+                    android:id="@+id/homeFragment"
+                    android:icon="@drawable/home"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/myOrderFragment"
+                    android:icon="@drawable/myorder"
+                    android:title="My Order" />
+                <item
+                    android:id="@+id/chartFragment"
+                    android:icon="@drawable/cart"
+                    android:title="Cart" />
+                <item
+                    android:id="@+id/cuponfragment"
+                    android:icon="@drawable/cupon"
+                    android:title="Cupon" />
+                <item
+                    android:id="@+id/newProductFragment"
+                    android:icon="@drawable/newarival"
+                    android:title="New Arrival" />
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/settingFragment"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/helpFragment"
+                android:icon="@drawable/help"
+                android:title="Help Center" />
+            <item
+                android:id="@+id/logoutFragment"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+
+
+        </menu>
+
+    </item>
+
+</menu>
