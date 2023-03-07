@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_left"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.edu.beautifulnavigationdrawer.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/newProductFragment"
+        android:name="com.edu.beautifulnavigationdrawer.NewProductFragment"
+        android:label="fragment_new_product"
+        tools:layout="@layout/fragment_new_product" />
+    <fragment
+        android:id="@+id/chartFragment"
+        android:name="com.edu.beautifulnavigationdrawer.ChartFragment"
+        android:label="fragment_chart"
+        tools:layout="@layout/fragment_chart" />
+    <fragment
+        android:id="@+id/cuponfragment"
+        android:name="com.edu.beautifulnavigationdrawer.cuponfragment"
+        android:label="fragment_cuponfragment"
+        tools:layout="@layout/fragment_cuponfragment" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.edu.beautifulnavigationdrawer.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.edu.beautifulnavigationdrawer.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.edu.beautifulnavigationdrawer.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/myOrderFragment"
+        android:name="com.edu.beautifulnavigationdrawer.MyOrderFragment"
+        android:label="fragment_my_order"
+        tools:layout="@layout/fragment_my_order" />
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.edu.beautifulnavigationdrawer.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.edu.beautifulnavigationdrawer.LogoutFragment"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>
